@@ -1,0 +1,105 @@
+body{
+    font-family: 'Anek Latin', sans-serif;
+    background: #0ba;
+}
+.curso i{
+    font-size: 200px;
+    transition:all .5s;
+    margin:0px auto;
+    text-shadow:2px 2px 4px #111;
+    color: #07f;
+}
+i:hover{
+    font-size: 300px;
+}
+
+.curso p{
+    display: block;
+    font-size:10vh;
+    text-shadow:1px 1px 4px #111;
+    transition:all .3s;
+}
+.curso p:hover{
+    font-size:15vh;
+    margin:0px auto;
+    color: #099;
+}
+.curso{
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+.formulario{
+    background:#0ca;
+    display: flex;
+    height: 25px;
+    justify-content: center;
+}
+.formulario input{
+    width:30%;
+}
+.formulario button{
+    border:1px solid #111;
+    margin-left: 2px;
+    border-radius: 4px;
+    background: #0a9;
+    padding:0px 1px 2px 0px;
+    transition:all .5s;
+}
+.formulario button:hover{
+    background: #0f7;
+    padding:-2px;
+}
+
+.card-body{
+    height: 250px;
+    background:#0ca;;
+    display:flex;
+    justify-items: center;
+    margin :0px auto;
+}
+
+.caja .card-title{
+    text-align: center;
+    display: block;
+    height: 20px;
+}
+.caja img{
+    box-shadow: 2px 2px 2px 3px #0f9;
+    border-radius: 4px;
+    transition: all .5s;
+}
+.caja img:hover{
+    box-shadow: -1px -1px 1px 3px #0c9;
+    border-radius: 4px;
+}
+.card{
+    width: 90%;
+    height: 50%;
+    margin: 0px auto;
+    background:#0ca;;
+    margin-bottom:20px;
+    transition: all 1s;
+}
+.card:hover{
+    width: 95%;
+    height: 70%;
+    margin: 0px auto;
+    background:#0ca;;
+    transition: all 1s;
+}
+.card-body{
+    background: #0ca;
+}
+.card-body:hover{
+
+    background: #0fa;
+}
+.card:hover{
+    border-radius: 10px;
+}
+.formulario{
+    width: 100%;
+    position:fixed;
+    z-index: 3;
+}
